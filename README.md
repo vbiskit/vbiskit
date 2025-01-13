@@ -20,7 +20,37 @@ This project demonstrates an interactive mouse movement effect applied to an ima
   <a href="https://github.com/biskit069?tab=repositories"><img src="https://img.shields.io/badge/-Explore%20my%20Repos-24292e?style=for-the-badge&logo=Github"></a>
 </p>
 
-![GIF](https://www.teahub.io/photos/full/288-2886370_illustration.gif)
+<!-- Add an interactive GIF or image that will move -->
+<div style="position: relative; width: 300px; height: 300px;">
+  <img src="https://via.placeholder.com/300x300" alt="Black Panther" class="image" style="width: 100%; height: 100%; object-fit: cover;">
+  <div class="eye left" style="position: absolute; top: 40%; left: 30%; width: 30px; height: 30px; border-radius: 50%; background-color: white;"></div>
+  <div class="eye right" style="position: absolute; top: 40%; right: 30%; width: 30px; height: 30px; border-radius: 50%; background-color: white;"></div>
+</div>
+
+<script>
+  const eyes = document.querySelectorAll('.eye');
+  const image = document.querySelector('.image');
+
+  document.addEventListener('mousemove', (e) => {
+    const { clientX: mouseX, clientY: mouseY } = e;
+    const { left, top, width, height } = image.getBoundingClientRect();
+
+    const relX = (mouseX - left) / width;
+    const relY = (mouseY - top) / height;
+
+    // Move eyes
+    eyes.forEach((eye) => {
+      const offsetX = (relX - 0.5) * 50;
+      const offsetY = (relY - 0.5) * 50;
+      eye.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
+    });
+
+    // Optional: Add a slight movement effect to the image itself
+    const moveX = (relX - 0.5) * 20;
+    const moveY = (relY - 0.5) * 20;
+    image.style.transform = `translate(${moveX}px, ${moveY}px)`;
+  });
+</script>
 
 ## Installation
 
