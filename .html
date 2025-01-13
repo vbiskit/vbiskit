@@ -3,74 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Image with Mouse Move</title>
+  <title>Interactive Black Panther Mouse Move Effect</title>
   <style>
-    /* Basic styling for the container */
-    body, html {
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: white;
       margin: 0;
       padding: 0;
-      height: 100%;
-      overflow: hidden;
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #000;
+      height: 100vh;
+      overflow: hidden;
     }
 
     .container {
       position: relative;
       width: 300px;
       height: 300px;
+      margin: 0 auto;
     }
 
-    /* Image styling */
+    /* Image Style */
     .image {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      position: absolute;
-      top: 0;
-      left: 0;
-      transition: transform 0.1s ease;
+      border-radius: 10px;
     }
 
-    /* Styling for the eyes */
+    /* Eye Styles */
     .eye {
       position: absolute;
+      top: 40%;
       width: 30px;
       height: 30px;
       border-radius: 50%;
       background-color: white;
-      top: 40%;
-      transition: transform 0.1s ease;
     }
 
-    .eye.left {
+    .left {
       left: 30%;
     }
 
-    .eye.right {
+    .right {
       right: 30%;
     }
 
-    /* Optional, for a cool effect */
-    .eye::after {
-      content: '';
-      position: absolute;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background-color: black;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    /* Optional Styling for the Typing SVG Animation */
+    .typing-animation {
+      text-align: center;
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
 
+  <div class="typing-animation">
+    <p align="center">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=7B00FF&center=true&vCenter=true&width=380&lines=Script+Kiddie" alt="Typing SVG">
+    </p>
+    <p align="center">
+      <a href="https://github.com/biskit069?tab=repositories">
+        <img src="https://img.shields.io/badge/-Explore%20my%20Repos-24292e?style=for-the-badge&logo=Github" alt="Explore my Repos">
+      </a>
+    </p>
+  </div>
+
   <div class="container">
+    <!-- Black Panther Image -->
     <img src="https://via.placeholder.com/300x300" alt="Black Panther" class="image">
+
+    <!-- Eyes that will follow the mouse -->
     <div class="eye left"></div>
     <div class="eye right"></div>
   </div>
@@ -79,25 +84,23 @@
     const eyes = document.querySelectorAll('.eye');
     const image = document.querySelector('.image');
 
-    // Function to move eyes based on mouse position
     document.addEventListener('mousemove', (e) => {
       const { clientX: mouseX, clientY: mouseY } = e;
       const { left, top, width, height } = image.getBoundingClientRect();
-      
-      // Calculate the relative position of the mouse inside the image
+
       const relX = (mouseX - left) / width;
       const relY = (mouseY - top) / height;
 
       // Move eyes
-      eyes.forEach((eye, index) => {
-        const offsetX = (relX - 0.5) * 50; // Move eyes based on mouse X
-        const offsetY = (relY - 0.5) * 50; // Move eyes based on mouse Y
+      eyes.forEach((eye) => {
+        const offsetX = (relX - 0.5) * 50;
+        const offsetY = (relY - 0.5) * 50;
         eye.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
       });
 
       // Optional: Add a slight movement effect to the image itself
-      const moveX = (relX - 0.5) * 20; // Small movement on X axis
-      const moveY = (relY - 0.5) * 20; // Small movement on Y axis
+      const moveX = (relX - 0.5) * 20;
+      const moveY = (relY - 0.5) * 20;
       image.style.transform = `translate(${moveX}px, ${moveY}px)`;
     });
   </script>
