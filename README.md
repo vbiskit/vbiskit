@@ -3,33 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hover GIF Animation</title>
+  <title>Hover Image Animation</title>
   <style>
-    /* Style for the container of the GIF */
-    .gif-container {
+    /* Style for the container of the image */
+    .image-container {
       display: inline-block;
       overflow: hidden;
       position: relative;
     }
 
-    /* Style for the GIF/image */
-    .gif-container img {
+    /* Style for the image */
+    .image-container img {
       width: 100%; /* Adjust the width as needed */
       transition: transform 0.5s ease; /* Smooth transition for the hover effect */
     }
 
     /* Hover effect */
-    .gif-container:hover img {
+    .image-container:hover img {
       transform: scale(1.2) translate(20px, -20px); /* Adjust the movement and zoom */
     }
   </style>
 </head>
 <body>
-  <h1>Hover over the GIF to see the effect!</h1>
+  <h1>Hover over the image to see the effect!</h1>
 
-  <!-- GIF container -->
-  <div class="gif-container">
-    <img src="https://www.teahub.io/photos/full/288-2886370_illustration.gif" alt="Cyberpunk GIF">
+  <!-- Image container -->
+  <div class="image-container">
+    <img src="https://via.placeholder.com/500" alt="Placeholder Image">
   </div>
 </body>
 </html>
