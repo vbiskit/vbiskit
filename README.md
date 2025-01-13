@@ -10,27 +10,26 @@
       display: inline-block;
       overflow: hidden;
       position: relative;
-      cursor: pointer;
     }
 
     /* Style for the GIF/image */
     .gif-container img {
-      transition: transform 0.3s ease;
       width: 100%; /* Adjust the width as needed */
+      transition: transform 0.5s ease; /* Smooth transition for the hover effect */
     }
 
-    /* Animation when hovered */
+    /* Hover effect */
     .gif-container:hover img {
-      transform: scale(1.2) translateX(10px) translateY(-10px);
+      transform: scale(1.2) translate(20px, -20px); /* Adjust the movement and zoom */
     }
   </style>
 </head>
 <body>
-  <h1>Hover over the GIF to see the animation!</h1>
+  <h1>Hover over the GIF to see the effect!</h1>
 
   <!-- GIF container -->
   <div class="gif-container">
-    <img src="https://www.teahub.io/photos/full/288-2886370_illustration.gif" alt="Black Panther GIF">
+    <img src="https://www.teahub.io/photos/full/288-2886370_illustration.gif" alt="Cyberpunk GIF">
   </div>
 </body>
 </html>
