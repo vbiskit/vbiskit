@@ -5,4 +5,4 @@
   <a href="https://github.com/biskit069?tab=repositories"><img src="https://img.shields.io/badge/-Explore%20my%20Repos-24292e?style=for-the-badge&logo=Github"></a>
 </p>
 
-<img align="right" height="540" src="file:///C:/Users/levyg/Downloads/download%20(16).gif" />
+<img align="right" height="1920x1080" src="https://duckduckgo.com/?q=black+panta+gif&atb=v436-1&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fwww.teahub.io%2Fphotos%2Ffull%2F288-2886370_illustration.gif" />
