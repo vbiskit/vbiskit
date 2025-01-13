@@ -5,4 +5,4 @@
   <a href="https://github.com/biskit069?tab=repositories"><img src="https://img.shields.io/badge/-Explore%20my%20Repos-24292e?style=for-the-badge&logo=Github"></a>
 </p>
 
-<img align="right" height="150" src="file:///C:/Users/levyg/Downloads/download%20(16).gif" />
+<img align="right" height="540" src="file:///C:/Users/levyg/Downloads/download%20(16).gif" />
