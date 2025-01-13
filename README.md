@@ -5,4 +5,4 @@
   <a href="https://github.com/biskit069?tab=repositories"><img src="https://img.shields.io/badge/-Explore%20my%20Repos-24292e?style=for-the-badge&logo=Github"></a>
 </p>
 
-![GIF](https://i.redd.it/qk5j4fiygs661.gif)
+![GIF](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F47%2F9c%2Fa3%2F479ca3a9f4825e6ab6745750c94ba5ab.gif&f=1&nofb=1&ipt=c3b68728720db7ec41f72e89c6bc14cbc7e72b7f992704a04ec14619dbf737ee&ipo=images)
