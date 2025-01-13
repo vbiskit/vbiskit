@@ -1,3 +1,4 @@
+- [Sploitsnip3r](https://github.com/biskit069/sploitsnip3r) - hacking kit
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=7B00FF&center=true&vCenter=true&width=380&lines=Script+Kiddie" alt="Typing SVG">
@@ -9,5 +10,3 @@
 
 ![GIF](https://www.teahub.io/photos/full/288-2886370_illustration.gif)
 
-
-- [Sploitsnip3r](https://github.com/biskit069/sploitsnip3r)
