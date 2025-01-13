@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=7B00FF&center=true&vCenter=true&width=380&lines=Iam+BisKit+Script Kiddie" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=1000&color=C0F7EF&width=435&lines=I+am;BisKit;Script+Kiddie" alt="Typing SVG">
 </p>
 
 
@@ -9,4 +9,3 @@
 </p>
 
 ![GIF](https://i.redd.it/qk5j4fiygs661.gif)
-
