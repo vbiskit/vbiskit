@@ -12,7 +12,7 @@
 
 ## Black Panther Eyes Animation
 
-![Black Panther Eyes Animation](https://your-image-url-here.gif)
+![Black Panther Eyes Animation](https://github.com/biskit069/your-repo-name/raw/main/black-panther-eyes.gif)
 
 ## Description
 
