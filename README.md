@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/biskit069?tab=repositories"><img src="https://img.shields.io/badge/-Explore%20my%20Repos-24292e?style=for-the-badge&logo=Github"></a>
+  <a href="https://github.com/vbiskit?tab=repositories"><img src="https://img.shields.io/badge/-Explore%20my%20Repos-24292e?style=for-the-badge&logo=Github"></a>
 </p>
 
 ![GIF](https://www.teahub.io/photos/full/288-2886370_illustration.gif)
