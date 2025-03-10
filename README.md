@@ -6,4 +6,4 @@
   <a href="https://github.com/vbiskit?tab=repositories"><img src="https://img.shields.io/badge/-Explore%20my%20Repos-24292e?style=for-the-badge&logo=Github"></a>
 </p>
 
-![destiny2](destiny2.jpeg)
+![destiny2](destiny.jpeg)
